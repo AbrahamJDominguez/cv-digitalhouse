@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    align-content: center;
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/16/19/47/bokeh-2072271_1280.jpg);
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 23, 196);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header ul {
+    margin-right: 150px;
+    list-style-type: none;
+    color: black;
+}
+
+header ul a {
+    color: black;
+    background-color: rgba(255, 0, 212, 0.193);
+    border-radius: 5px;
+}
+
+footer {
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+footer>a:first-of-type{
+    margin-left: 15px;
+}
+
+i {
+    margin-left: 5px;
+    color: white;
+}
